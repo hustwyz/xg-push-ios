@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.vendored_libraries    = '*.a'
     s.license               = 'MIT'
     s.framework             = 'CFNetwork', 'SystemConfiguration', 'CoreTelephony', 'Security'
-    s.library               = 'z', 'sqlite'
+    s.library               = 'z', 'sqlite3'
     s.requires_arc          = false
 
 end
