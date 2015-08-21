@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform              = :ios, '6.0'
     s.source                = {
         :git => 'https://github.com/hustwyz/xg-push-ios.git',
-        :tag => 'v2.4.0'
+        :tag => '2.4.0'
     }
     s.source_files          = '*.h'
     s.vendored_libraries    = '*.a'
